@@ -4,12 +4,12 @@ You can edit your notes to rectify all your mistakes.
 We respect your privacy. We keep your data protected so that no one except you can access your notes.
 
 # Tech Stack :
-HTML/CSS
-Javascript
-MongoDb
-Express JS
-Node JS
-React JS
-Bootstrap
+- HTML/CSS
+- Javascript
+- MongoDb
+- Express JS
+- Node JS
+- React JS
+- Bootstrap
 # QuickNotes
 hosted at https://quicknotes39.herokuapp.com/
