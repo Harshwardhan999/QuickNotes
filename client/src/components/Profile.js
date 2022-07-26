@@ -16,7 +16,7 @@ const Profile = () => {
   return (
     <div>
       <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-        <button className="btn btn-primary me-md-2 mx-2 mt-2" type="button" onClick={() => Navigate('/updateprofile')}>Update Profile</button>
+        <button className="addbutton btn btn-primary me-md-2 mx-2 mt-2" type="button" onClick={() => Navigate('/updateprofile')}>Update Profile</button>
         <DeleteAccountModal id={user.id} />
       </div>
       {user.name && <h4 className='mx-3 my-3'>Name : {user.name}</h4>}

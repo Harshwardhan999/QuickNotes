@@ -21,26 +21,26 @@ const EditNote = () => {
   return (
     <div className='mx-4 my-4' >
       
-      <h3 className='text-center'>Edit Note</h3>
+      <h3 className='text-center jiji'><b>Edit Note</b></h3>
       
       <form onSubmit={onSubmit}>
         
         <div className="mb-3">
-          <label htmlFor="title" className="form-label" >Title</label>
-          <input type="text" className="form-control" id="title" name="title" defaultValue={note.title} required />
+          <label htmlFor="title" className="form-label jiji" ><b>Title</b></label>
+          <input type="text" className="form-control bgyelo" id="title" name="title" defaultValue={note.title} required />
         </div>
         
         <div className="mb-3">
-          <label htmlFor="tag" className="form-label">Tag</label>
-          <input type="text" className="form-control" id="tag" name="tag" defaultValue={note.tag} />
+          <label htmlFor="tag" className="form-label jiji"><b>Tag</b></label>
+          <input type="text" className="form-control bgyelo" id="tag" name="tag" defaultValue={note.tag} />
         </div>
         
         <div className="mb-3">
-          <label htmlFor="description" className="form-label" style={{ display: "block" }}>Description</label>
-          <textarea name="description" id="description" style={{ width: '100%' }} rows="10" required defaultValue={note.description}></textarea>
+          <label htmlFor="description" className="form-label jiji " style={{ display: "block" }}><b>Description</b></label>
+          <textarea name="description" id="description" className='bgyelo' style={{ width: '100%' }} rows="10" required defaultValue={note.description}></textarea>
         </div>
         
-        <button type="submit" className="btn btn-primary">Edit Note</button>
+        <button type="submit" className="addbutton btn btn-primary">Edit Note</button>
 
       </form>
 

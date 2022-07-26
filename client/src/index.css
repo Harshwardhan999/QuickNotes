@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(247, 241, 241);
+  background-color: aliceblue;
 }
 
 code {
@@ -16,3 +16,72 @@ i {
   cursor: pointer;
 }
 
+
+.addbutton{
+  background-color: rgb(0, 113, 89);
+  color:yellow;
+}
+
+.addbutton:hover{
+  background-color: rgb(167, 143, 143);
+  color:black;
+  transform: scale(1.2);
+  border-radius: 20px;
+}
+
+.addbutton2{
+  background-color: rgb(0, 113, 89);
+  color:yellow;
+}
+
+.addbutton2:hover{
+  background-color: rgb(167, 143, 143);
+  color:black;
+  transform: scale(1.1);
+  border-radius: 20px;
+}
+.navv:hover{
+  background-color: rgb(165, 165, 138);
+  border-radius: 20px;
+}
+
+.myfont{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 50px;
+}
+
+.ifont:hover{
+  font-family:cursive;
+  color: black;
+}
+
+.deletebutton{
+    background-color: rgb(234, 115, 115);
+    color:yellow;
+}
+
+.deletebutton:hover{
+  background-color: red;
+  transform: scale(1.2);
+  border-radius: 20px;
+  color:black;
+}
+
+.backbutton{
+  color:yellow;
+}
+.backbutton:hover{
+  color: black;
+  border-radius: 20px;
+  transform: 1.2;
+}
+
+.bgyelo{
+  background-color: rgb(255, 255, 175);
+  border-radius: 20px;
+}
+
+.jiji{
+  font-family:cursive;
+  
+}

@@ -16,26 +16,26 @@ const AddNote = () => {
   return (
     <div className='mx-4 my-4'>
       
-      <h3 className='text-center'>Add Note</h3>
+      <h3 className=' text-center'>Quick Notes</h3>
       
       <form onSubmit={onSubmit}>
         
         <div className="mb-3">
-          <label htmlFor="title" className="form-label">Title</label>
-          <input type="text" className="form-control" id="title" name="title" required />
+          <label htmlFor="title" className="form-label jiji"><b>Title</b></label>
+          <input type="text" className="form-control bgyelo" id="title" name="title" required />
         </div>
         
         <div className="mb-3">
-          <label htmlFor="tag" className="form-label">Tag</label>
-          <input type="text" className="form-control" id="tag" name="tag" />
+          <label htmlFor="tag" className="form-label jiji"><b>Tag</b></label>
+          <input type="text" className="form-control bgyelo" id="tag" name="tag" />
         </div>
         
         <div className="mb-3">
-          <label htmlFor="description" className="form-label" style={{ display: "block" }}>Description</label>
-          <textarea name="description" id="description" style={{ width: '100%' }} rows="10" required></textarea>
+          <label htmlFor="description" className="form-label jiji" style={{ display: "block" }}><b>Description</b></label>
+          <textarea name="description" id="description" className='bgyelo' style={{ width: '100%' }} rows="10" required></textarea>
         </div>
         
-        <button type="submit" className="btn btn-primary">Add This Note</button>
+        <button type="submit" className="btn btn-primary addbutton">Add This Note</button>
 
       </form>
 

@@ -32,21 +32,21 @@ const UpdateProfile = () => {
 
   return (
     <div className='container my-5'>
-      <h3 className='text-center mx-3 my-3'>Update your profile</h3>
+      <h3 className='jiji text-center mx-3 my-3'><b>Update your profile</b></h3>
       
       <form onSubmit={onSubmit} >
         
-        <div className="form-group my-4">
+        <div className="form-group my-4 jiji">
           <label htmlFor="name">Name</label>
-          <input type="text" className="form-control" id="name" name="name" placeholder="Enter name" required defaultValue={user.name} />
+          <input type="text" className="form-control bgyelo" id="name" name="name" placeholder="Enter name" required defaultValue={user.name} />
         </div>
         
-        <div className="form-group my-4">
+        <div className="form-group my-4 jiji">
           <label htmlFor="email">Email address</label>
-          <input type="email" className="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required defaultValue={user.email} />
+          <input type="email" className="form-control bgyelo" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required defaultValue={user.email} />
         </div>
 
-        <button type="submit" className="btn btn-primary my-3">Update Profile</button>
+        <button type="submit" className="addbutton btn btn-primary my-3">Update Profile</button>
       </form>
 
 

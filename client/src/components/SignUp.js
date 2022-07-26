@@ -45,25 +45,25 @@ const SignUp = () => {
       <h3 className='text-center mx-3 my-3 text-danger'>If you already have account , please <Link to='/login'>Login</Link></h3>
 
       <form onSubmit={onSubmit} >
-        <div className="form-group">
-          <label htmlFor="name">Name</label>
-          <input type="text" className="form-control" id="name" name="name" placeholder="Enter Name" required />
+        <div className="form-group jiji">
+          <label htmlFor="name"><b>Name</b></label>
+          <input type="text" className="form-control bgyelo" id="name" name="name" placeholder="Enter Name" required />
         </div>
-        <div className="form-group">
-          <label htmlFor="email">Email address</label>
-          <input type="email" className="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required />
+        <div className="form-group jiji">
+          <label htmlFor="email"><b>Email address</b></label>
+          <input type="email" className="form-control bgyelo" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required />
           <small id="emailHelp" className="form-text text-muted"></small>
         </div>
-        <div className="form-group">
-          <label htmlFor="password">Password</label>
-          <input type="password" className="form-control" id="password" name="password" placeholder="Password" autoComplete="on" required />
+        <div className="form-group jiji">
+          <label htmlFor="password"><b>Password</b></label>
+          <input type="password" className="form-control bgyelo" id="password" name="password" placeholder="Password" autoComplete="on" required />
           <small id="passwordHelp" className="form-text text-muted"></small>
         </div>
-        <div className="form-group">
-          <label htmlFor="cpassword">Confirm Password</label>
-          <input type="password" className="form-control" id="cpassword" name="cpassword" placeholder="Confirm Password" autoComplete="on" required />
+        <div className="form-group jiji">
+          <label htmlFor="cpassword"><b>Confirm Password</b></label>
+          <input type="password" className="form-control bgyelo" id="cpassword" name="cpassword" placeholder="Confirm Password" autoComplete="on" required />
         </div>
-        <button type="submit" className="btn btn-primary my-3">Submit</button>
+        <button type="submit" className="btn btn-primary my-3 addbutton">Submit</button>
       </form>
 
     </div>

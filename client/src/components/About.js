@@ -3,20 +3,29 @@ import React from 'react'
 const About = () => {
   return (
     <div className='mx-3 my-3'>
-      <h2 class='text-center'>About</h2>
+      <h1 class='text-center'>What's Quick Notes</h1>
       <br />
       <br />
-      <h4>The quick and easy Notepad for notes</h4>
+      <h2 class='text-center'>A perfect place to create and save notes.</h2>
       <br />
-      <h4>Simple And Easy to use</h4>
-      <p>It gives you quick access to your notes and is completely free.You just have to sign up and create account to use it</p>
+      <ul>
+      <li><h4>Easy to handle</h4>
+      <p>A completely free Notes Application that gives you quick access to your notes.Just Sign Up and go on.</p></li>
       <br />
-      <h4>Easily fix mistakes</h4>
-      <p>It includes edit option to edit your saved notes.</p>
+      <li><h4>OOPS committed Mistake</h4>
+      <p>You can edit your notes to rectify all your mistakes.</p></li>
       <br />
-      <h4>Completely Secure </h4>
-      <p>For your privacy and data protection, we do not access any of your notes or store any information contained in it.</p>
+      <li>
+      <h4>Privacy: Undoubtedly yes! </h4>
+      <p>We respect your privacy. We keep your data protected so that no one except you can access your notes.</p>
       <br />
+      </li>
+      </ul>
+      
+      
+      
+      
+      
     </div>
   )
 }

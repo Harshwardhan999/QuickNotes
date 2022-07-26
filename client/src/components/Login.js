@@ -38,22 +38,24 @@ const Login = () => {
 
   return (
     <div className='container my-5'>
-      <h2 className='text-center mx-3 my-3 text-info'>Please Login to continue</h2>
-      <h3 className='text-center mx-3 my-3 text-danger'>If you don't have an account , <Link to='/signup'>Sign Up</Link> to create new account</h3>
+      <h2 className='text-center mx-3 my-3 text-warning'>Login to create notes</h2>
+      <br/>
+      <h3 className='text-center mx-3 my-3 text-danger'>Don't have an account , <Link to='/signup'>Sign Up</Link> to create one</h3>
 
       <form onSubmit={onSubmit} >
-        <div className="form-group">
-          <label htmlFor="email">Email address</label>
-          <input type="email" className="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required />
+        <div className="form-group jiji">
+          <label htmlFor="email"><b>Email address</b></label>
+          <input type="email" className="form-control bgyelo" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required />
           <small id="emailHelp" className="form-text text-muted"></small>
         </div>
-        <div className="form-group">
-          <label htmlFor="password">Password</label>
-          <input type="password" className="form-control" id="password" name="password" placeholder="Password" autoComplete="on" required />
+        <br/>
+        <div className="form-group jiji">
+          <label htmlFor="password"><b>Password</b></label>
+          <input type="password" className="form-control bgyelo" id="password" name="password" placeholder="Password" autoComplete="on" required />
           <small id="passwordHelp" className="form-text text-muted"></small>
         </div>
 
-        <button type="submit" className="btn btn-primary my-3">Login</button>
+        <button type="submit" className="addbutton btn btn-primary my-3">Login</button>
       </form>
 
     </div>
@@ -61,3 +63,7 @@ const Login = () => {
 }
 
 export default Login
+
+
+
+

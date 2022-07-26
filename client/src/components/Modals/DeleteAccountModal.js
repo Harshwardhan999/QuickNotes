@@ -24,7 +24,7 @@ const DeleteAccountModal = () => {
   return (
     <div >
 
-      <button type="button" ref={ref} className="btn btn-danger me-md-2 mx-2 mt-2" style={{ width: "96%" }} data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <button type="button" ref={ref} className="deletebutton btn btn-danger me-md-2 mx-6 mt-2" style={{ width: "96%" }} data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         Delete Account
       </button>
 
@@ -39,13 +39,14 @@ const DeleteAccountModal = () => {
             </div>
 
             <div className="modal-body">
-              <p>You will loose all your data on deleting the account.</p>
               <p>Are you sure you want to delete your account?</p>
+              <p>All your data will be deleted on deleting the account.</p>
+              
             </div>
 
             <div className="modal-footer">
-              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-              <button type="button" className="btn btn-primary" onClick={onDelete}>Yes</button>
+              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+              <button type="button" className="btn btn-primary" onClick={onDelete}>YES</button>
             </div>
 
           </div>

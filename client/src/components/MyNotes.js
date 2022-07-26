@@ -16,10 +16,10 @@ const MyNotes = () => {
     <div className='my-3'>
 
       <div className="d-grid gap-2 d-md-flex justify-content-md-end mx-3 my-2">
-        <button className="btn btn-primary me-md-2" type="button" onClick={(e) => { e.preventDefault(); Navigate('/addnote') }}>Add Note</button>
+        <button className="addbutton btn btn-primary me-md-2" type="button" onClick={(e) => { e.preventDefault(); Navigate('/addnote') }}>Add Notes</button>
       </div>
 
-      <h3 className='text-center mt-5'>My Notes</h3>
+      <h1 className='myfont text-center mt-5'>My Notes</h1>
 
       {notes.length &&
         <div className="row mx-5">

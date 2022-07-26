@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-secondary text-light">
+            <nav className=" navbar navbar-expand-lg bg-dark text-warning">
                 
                 <div className="container-fluid">
                     
@@ -20,16 +20,16 @@ const Navbar = () => {
                     
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <Link className={`nav-link text-light`} aria-current="page" to="/home" >Home</Link>
-                            <Link className={`nav-link text-light`} aria-current="page" to="/about">About</Link>
+                            <Link className={`navv nav-link text-warning  `} aria-current="page" to="/home" ><span className='ifont'>Home</span></Link>
+                            <Link className={`navv nav-link text-warning mx-5`} aria-current="page" to="/about"><span className='ifont'>About</span></Link>
                         </div>
                     </div>
                     
                     <form className="form-inline my-2 my-lg-0">
-                        {!login && <button className="btn btn-outline-light my-2 my-sm-0 mx-3" onClick={(e) => { e.preventDefault(); Navigate('/login') }}>Login</button>}
-                        {!login && <button className="btn btn-outline-light my-2 my-sm-0 mx-3" onClick={(e) => { e.preventDefault(); Navigate('/signup') }}>Sign Up</button>}
-                        {login && <button className="btn btn-outline-light my-2 mx-sm-0 mx-3" onClick={(e) => { e.preventDefault(); Navigate('/profile') }}>Profile</button>}
-                        {login && <button className="btn btn-outline-light my-2 my-sm-0 mx-3" onClick={(e) => { e.preventDefault(); logOut(); Navigate('/login') }} >Log Out</button>}
+                        {!login && <button className="navv btn btn-outline-warning my-2 my-sm-0 mx-3" onClick={(e) => { e.preventDefault(); Navigate('/login') }}>Login</button>}
+                        {!login && <button className="navv btn btn-outline-warning my-2 my-sm-0 mx-3" onClick={(e) => { e.preventDefault(); Navigate('/signup') }}>Sign Up</button>}
+                        {login && <button className="navv btn btn-outline-warning my-2 mx-sm-0 mx-3" onClick={(e) => { e.preventDefault(); Navigate('/profile') }}>Profile</button>}
+                        {login && <button className="navv btn btn-outline-warning my-2 my-sm-0 mx-3" onClick={(e) => { e.preventDefault(); logOut(); Navigate('/login') }} >Log Out</button>}
                     </form>
                 
                 </div>
