@@ -1,2 +1,2 @@
-# enotebook
-hosted at https://harshwardhanchaube-quicknotes.herokuapp.com/
+# QuickNotes
+hosted at https://quicknotes39.herokuapp.com/
